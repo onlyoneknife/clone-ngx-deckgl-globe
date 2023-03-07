@@ -1,0 +1,42 @@
+{
+  "name": "ngx-deckgl-globe",
+  "version": "0.0.1",
+  "keywords": [
+    "angular",
+    "ngx",
+    "globe",
+    "deckgl",
+    "map",
+    "typescript"
+  ],
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "tsc -p . && echo 'success!'"
+  },
+  "private": false,
+  "dependencies": {
+    "@angular/common": "^15.1.0",
+    "@angular/compiler": "^15.1.0",
+    "@angular/core": "^15.1.0",
+    "@angular/forms": "^15.1.0",
+    "@angular/platform-browser": "^15.1.0",
+    "@angular/platform-browser-dynamic": "^15.1.0",
+    "@deck.gl/core": "^8.8.23",
+    "@deck.gl/geo-layers": "^8.8.23",
+    "@deck.gl/layers": "^8.8.23",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.12.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^15.1.3",
+    "@angular/cli": "~15.1.3",
+    "@angular/compiler-cli": "^15.1.0",
+    "@types/geojson": "^7946.0.10",
+    "@types/node": "^18.11.18",
+    "typescript": "~4.9.4"
+  }
+}
